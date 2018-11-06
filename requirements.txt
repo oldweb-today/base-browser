@@ -1,3 +1,0 @@
-websockify
-gevent
-uwsgi
