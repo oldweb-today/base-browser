@@ -49,3 +49,5 @@ USER browser
 
 ENTRYPOINT ["/app/browser_entrypoint.sh"]
 
+CMD ["/app/run.sh"]
+

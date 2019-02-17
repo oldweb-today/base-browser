@@ -1,8 +1,6 @@
-version: '3'
+version: '3.3'
 
-# Build All Base Images
 services:
-    # Base for all browsers
-    base-browser:
-        image: oldwebtoday/base-browser
-        build: ./
+   base:
+      image: 'oldwebtoday/base-browser'
+      build: ./
