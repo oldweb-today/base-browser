@@ -4,6 +4,7 @@ FROM ubuntu:xenial
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && \
     DEBIAN_FRONTEND=noninteractive apt-get -qqy --no-install-recommends install \
     fonts-liberation \
+    fonts-freefont-ttf \
     fonts-dejavu \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
     fonts-indic
